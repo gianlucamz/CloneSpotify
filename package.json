@@ -1,0 +1,33 @@
+{
+  "name": "clonespotify",
+  "version": "1.0.0",
+  "description": "Este é um projeto do clone do Spotify, desenvolvido para fins educacionais. O objetivo é criar uma interface semelhante à do Spotify, utilizando tecnologias web modernas.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./input.css -o ./src/css/style.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./src/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gianlucamz/CloneSpotify.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "spotify",
+    "clone",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Gianluca Moreno Zocarato",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gianlucamz/CloneSpotify/issues"
+  },
+  "homepage": "https://github.com/gianlucamz/CloneSpotify#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "tailwindcss": "^4.2.2"
+  }
+}
